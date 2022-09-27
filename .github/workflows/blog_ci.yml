@@ -8,7 +8,7 @@ on:
 env:
   GIT_USER: Pheonisus
   GIT_EMAIL: ustcxcm@gmail.com
-  THEME_REPO: sanonz/hexo-theme
+  THEME_REPO: Pheonisus/hexo-theme-yilia
   THEME_BRANCH: master
   DEPLOY_REPO: Pheonisus/BlogPages
   DEPLOY_BRANCH: master
