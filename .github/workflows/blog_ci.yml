@@ -1,6 +1,7 @@
 name: CI
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
@@ -11,7 +12,7 @@ env:
   THEME_REPO: Pheonisus/hexo-theme-yilia
   THEME_BRANCH: master
   DEPLOY_REPO: Pheonisus/BlogPages
-  DEPLOY_BRANCH: master
+  DEPLOY_BRANCH: main
 
 jobs:
   build:
@@ -31,7 +32,7 @@ jobs:
         with:
           repository: ${{ env.THEME_REPO }}
           ref: ${{ env.THEME_BRANCH }}
-          path: themes/concise
+          path: themes/yilia
 
       - name: Checkout deploy repo
         uses: actions/checkout@v2
