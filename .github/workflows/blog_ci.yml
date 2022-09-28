@@ -11,7 +11,7 @@ env:
   GIT_EMAIL: ustcxcm@gmail.com
   THEME_REPO: Pheonisus/hexo-theme-yilia
   THEME_BRANCH: master
-  DEPLOY_REPO: Pheonisus/BlogPages
+  DEPLOY_REPO: Pheonisus/Pheonisus.github.io
   DEPLOY_BRANCH: main
 
 jobs:

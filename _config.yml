@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://pheonisus.github.io/BlogPages
+url: https://www.x-space.cc
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -105,3 +105,23 @@ deploy:
   type: git
   repo: git@github.com:Pheonisus/BlogPages.git
   branch: main
+
+
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
